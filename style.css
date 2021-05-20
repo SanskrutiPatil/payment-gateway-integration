@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0d1117;
+}
+
+header {
+    box-shadow: 0 0 4px 4px #777;
+}
+
+a {  
+    text-decoration: none;
+    color: #777;
+    display: inline-block;
+    margin: 10px;
+    padding: 3px;
+    font-size: 23px;
+}
+
+a:hover {
+    color: #ffeee6;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.content {
+    font-family: 'Rokkitt', serif;
+    background: #ffeee6;
+    max-width: 650px;
+    border-radius: 24px;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 2rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-family: 'Arima Madurai', cursive;
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 1rem;
+    line-height: 1.1;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.right {
+    margin-right: 5rem;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #777;
+    border-radius: 2rem;
+    height: 500px;
+    max-width: 1000px;
+    margin-top: 2rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+   
+}
+
+img {
+    display: block;
+    width: 40%;
+    margin: 3rem auto 1rem auto;
+
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-bottom: 2rem;
+}
+
+button:hover {
+    background: #f19d77;
+}
+
+button {
+    font-family: 'Recursive', sans-serif;
+    width: 15rem;
+    height: 4rem;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #fdbeed;
+    color: #003300;
+}
+
+.filled-heart {
+    height: auto;
+    margin-right: 6px;
+}

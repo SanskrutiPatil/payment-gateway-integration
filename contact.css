@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0d1117;
+}
+
+header {
+    box-shadow: 0 0 4px 4px #777;
+}
+
+a {  
+    text-decoration: none;
+    color: #777;
+    display: inline-block;
+    margin: 10px;
+    padding: 3px;
+    font-size: 23px;
+    
+}
+
+a:hover {
+    color: #ffeee6;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.right {
+    margin-right: 5rem;
+}
+
+.title {
+    color: aquamarine;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #777;
+    border-radius: 2rem;
+    height: 500px;
+    max-width: 850px;
+    margin-top: 4rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.title {
+    font-family: 'Balsamiq Sans', cursive;
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 2rem;
+    line-height: 1.1;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+    margin-top: 4rem;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+.fa {
+    font-size: 3rem; 
+}
+
+.fa-facebook:hover {
+    color: #385898;
+}
+
+.fa-twitter:hover {
+    color: rgb(29, 161, 242);
+}
+
+.fa-instagram:hover {
+    color: rgb(179, 10, 89);}
